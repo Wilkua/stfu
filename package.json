@@ -1,0 +1,31 @@
+{
+  "name": "stfu",
+  "version": "0.1.0",
+  "description": "A simple testing framework utility.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint *.js tests/",
+    "test": "node tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilkua/stfu.git"
+  },
+  "keywords": [
+    "test",
+    "testing",
+    "unit testing",
+    "suite",
+    "test suite",
+    "test framework"
+  ],
+  "author": "William Drescher <wilkua2@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilkua/stfu/issues"
+  },
+  "homepage": "https://github.com/wilkua/stfu#readme",
+  "devDependencies": {
+    "eslint": "6.8.0"
+  }
+}
